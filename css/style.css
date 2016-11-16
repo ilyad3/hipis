@@ -1,0 +1,293 @@
+/*Основные настройки*/
+body {
+	margin: 0;
+	background: url(../img/background.png) center no-repeat;
+	background-size: cover;
+	font-family: Open Sans;
+	height: 100%;
+}
+
+@font-face {
+    font-family: Odin Rounded; /* Имя шрифта */
+    src: url(fonts/Odin Rounded.otf); /* Путь к файлу со шрифтом */
+}
+
+/*Главная страница*/
+#main_logo{
+	color: #fff;
+	font-family: Odin Rounded;
+	margin: 3% 0 0 6%;
+	float: left;
+	text-decoration: none;
+	font-size: 2.8vw;
+	font-weight: 600;
+}
+
+.main_menu{
+	float: right;
+  	margin: 4% 7%;
+  	width: 19%;
+}
+
+.main_menu > a{
+	font-size: 1vw;
+  	font-weight: 600;
+  	text-decoration: none;
+  	padding: 3% 6%;
+  	color: #fff;
+  	cursor: pointer;
+}
+
+.main_menu > a:first-child{
+	border-radius: 0.6vw;
+    border: 0.2vw solid #fff;
+  	margin: 0 4% 0 0;
+}
+
+#main_about{
+	margin: 21% 0 0 -3%;
+	color: #fff;
+	font-size: 1.75vw;
+	float: left;
+}
+
+.main_scope{
+	float: right;
+	width: 37.5%;
+	height: 38%;
+	margin: 0 4% 0 0;
+	color: #fff;
+}
+
+.main_scope > p:first-child{
+	font-size: 3vw;
+	margin: 38px 0 0 0;
+}
+
+#main_bg{
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100% !important;
+	position: absolute;
+	display: none;
+	margin: 0 !important;
+}
+
+.main_auth{
+	width: 31.3%;
+  	height: 50%;
+	background: #fff;
+	margin: 9.4% auto;
+	display: none;
+	padding: 0 0 3.168% 0;
+position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#auth_error{
+	background: #f3dada;
+  	color: #cd7171;
+  	font-family: Open Sans-serif;
+  	font-weight: 500;
+  	font-size: 1.5vw;
+  	padding: 5.495%;
+  	display: none;
+  	text-align: center;
+}
+
+.main_auth > p{
+	margin: 0;
+	text-align: center;
+	height: 11.5%;
+  	padding: 4.3% 0 0 0;
+	font-family: Open Sans;
+	font-size: 2.35vw;
+	font-weight: normal;
+}
+
+#auth_inputs{
+	width: 69%;
+	height: 45%;
+	margin: 5% auto 0;
+}
+
+#auth_inputs > p{
+	font-family: Calibri;
+	font-weight: 600;
+	color: #919595;
+	font-size: 1.25vw;
+  	margin: 5% 0 4% 0;
+}
+
+#auth_inputs > input{
+	width: 100%;
+  	height: 21.5%;
+	outline: none;
+	border: 0;
+	background: #dadada;
+	color: #438e90;
+	font-family: Calibri;
+	font-size: 1.25vw;
+	font-weight: 600;
+	padding: 0 2%;
+}
+
+#auth_inputs > a{
+	font-size: 1.17vw;
+  	margin: 5.5% 0 0 0;
+	color: #b2b2b2;
+	font-family: Open Sans;
+	font-weight: 400;
+	text-decoration: none;
+	float: left;
+	cursor: pointer;
+}
+
+#auth_btn{
+	margin: 9.5% auto 0;
+	text-align: center;
+	color: #46b8bb;
+	border: 0.3vw solid #46b8bb;
+    border-radius: 0.6vw;
+	font-weight: 600;
+	cursor: pointer;
+	height: 8%;
+	width: 36%;
+	padding: 1.4% 0 0 0;
+	font-size: 1.3vw;
+}
+
+.main_reg{
+	width: 106.044%;
+	height: 76.13%;
+	margin: 8% 0 0 -19%;
+}
+
+.main_reg > input{
+	width: 63%;
+	height: 30px;
+	padding: 0 3%;
+	font-size: 1.05vw;
+	margin: 1.7% 0 0 27%;
+	outline: none;
+	border: 0;
+	font-family: Open Sans;
+	color: #555555;
+}
+
+.main_reg > input:focus{
+	width: 63%;
+	outline: 0.3vw solid #368384;
+}
+
+.main_reg > input[type=button]{
+	background: #2ca0a5;
+	color: #fff;
+	cursor: pointer;
+	margin: 6% 0 0 27%;
+}
+
+.main_reg > input[type=button]:focus{
+	width: 63%;
+	outline: 0.3vw solid rgba(0, 0, 0, 0.2);
+}
+
+.main_error_input{
+	background: #ffcfcf;
+}
+
+.main_error{
+	width: 31.633%;
+  	height: 21.725%;
+  	margin: 2% 0 -25% -8%;
+  	font-size: 1.01vw;
+	background: #B66A73;
+	float: left;
+	color: #fff;
+	font-family: Open Sans;
+	display: none;
+}
+
+#main_error_layer{
+	float: right;
+  	width: 3.11%;
+	height: 20.7%;
+	margin: 7% -3% 0 0;
+}
+
+.main_error > p{
+	margin: 0;
+	padding: 7%;
+}
+
+/*Первое добавление аккаунта*/
+.reg_logo{
+	color: #2eb2b6 !important;
+}
+
+#aa_btn{
+	color: #262626;
+	border: 2px solid #262626;
+}
+
+.aa_body{
+	background: #fff;
+}
+
+.aa_info{
+	width: 51.719%;
+	height: 28.604%;
+	margin: 14% 24%;
+	float: left;
+}
+
+.aa_info > p:first-child{
+	font-family: Open Sans;
+	font-size: 2.7vw;
+	font-weight: 100;
+	color: #000;
+	margin: 0;
+}
+
+.aa_info > p{
+	font-family: Open Sans;
+	font-size: 1.6vw;
+	font-weight: 400;
+	color: #999999;
+	margin: 3% 0 0 0;
+	text-align: center;
+}
+
+.aa_info > a{
+	width: 16.617%;
+  	height: 43.182%;
+  	margin: 13.8% 0 0 8%;
+	float: left;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.fb_img{
+	margin: 0 33%;
+	width: 27%;
+}
+
+.insta_img{
+	width: 57.28%;
+  	margin: 0 18%;
+}
+
+.aa_info > a > img{
+	height: 55%;
+}
+
+.aa_info > a > p{
+	font-family: Open Sans;
+	font-size: 1.5vw;
+	font-weight: 400;
+	text-align: center;
+	color: #000;
+}

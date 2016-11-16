@@ -1,0 +1,97 @@
+/*Авторизация Вк*/
+#main_bg{
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 104%;
+	position: absolute;
+	display: none;
+	margin: 0 0 0 -8.472%;
+}
+
+.main_auth{
+	width: 31.3%;
+  	height: 50%;
+	background: #fff;
+	margin: 9.4% auto;
+	display: none;
+	min-height: 386px;
+	min-width: 400px;
+	padding: 0 0 3.168% 0;
+}
+
+#auth_error{
+	background: #597ba5;
+  	color: #cd7171;
+  	font-family: Open Sans-serif;
+  	font-weight: 500;
+  	font-size: 1.5vw;
+  	padding: 5.495%;
+  	text-align: center;
+  	display: block;
+}
+
+#auth_error > img{
+	width: 13.481%;
+}
+
+.main_auth > p{
+	color: #647589;
+	margin: 0;
+	text-align: center;
+	height: 11.5%;
+  	padding: 4.3% 0 0 0;
+	font-family: Open Sans;
+	font-size: 2.35vw;
+	font-weight: normal;
+}
+
+#auth_inputs{
+	width: 69%;
+	height: 45%;
+	margin: 5% auto 0;
+}
+
+#auth_inputs > p{
+	font-family: Calibri;
+	font-weight: 600;
+	color: #919595;
+	font-size: 1.25vw;
+  	margin: 5% 0 4% 0;
+}
+
+#auth_inputs > input{
+	width: 100%;
+  	height: 21.5%;
+	outline: none;
+	border: 0;
+	background: #dadada;
+	color: #2b587a;
+	font-family: Calibri;
+	font-size: 1.25vw;
+	font-weight: 600;
+	padding: 0 2%;
+}
+
+#auth_inputs > a{
+	font-size: 1.17vw;
+  	margin: 5.5% 0 0 0;
+	color: #b2b2b2;
+	font-family: Open Sans;
+	font-weight: 400;
+	text-decoration: none;
+	float: left;
+}
+
+#auth_btn{
+	margin: 9.5% auto 0;
+	text-align: center;
+	color: #597ba5;
+	border: 3px solid #597ba5;
+	border-radius: 5px;
+	font-weight: 600;
+	cursor: pointer;
+	height: 8%;
+	width: 36%;
+	padding: 1.4% 0 0 0;
+	font-size: 1.3vw;
+}

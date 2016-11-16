@@ -1,0 +1,651 @@
+body{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+/*Левое меню*/
+#menu{
+	width: 6.563%;
+	height: 100%;
+	border-right: 0.2vw solid #e5e5e5;
+	float: left;
+	position: fixed;
+}
+
+#user_avatar{
+	width: 46.52%;
+  	height: 4.167%;
+  	margin: 27%;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#menu > ul{
+	width: 100%;
+	padding: 0;
+}
+
+#menu > ul > li{
+	list-style: none;
+}
+
+#out_li{
+	margin: 580.73% 0 0 0;
+}
+
+#menu > ul > li > a > img{
+	width: 24.43%;
+	margin: 14% 39%;
+}
+
+/*Страница настроек*/
+.main_bg{
+	width: 108.5% !important;
+	height: 104% !important;
+	z-index: 10;
+}
+
+#page{
+	margin: 0 0 0 8.5%;
+	padding: 1px;
+}
+
+#search{
+	width: 34.13%;
+  	height: 3.23%;
+  	font-size: 1.18vw;
+  	margin: 1.2% 0;
+	background: #e6f2f0;
+	color: #beccc9;
+	outline: none;
+	font-family: calibri;
+	border: 0;
+	padding: 1% 1.3%;
+}
+
+#page_title{
+	color: #12A8AC;
+	margin: 3% 0 0 0.7%;
+  	height: 4.167%;
+  	width: 14.089%;
+}
+
+#page_title > img{
+	float: left;
+	width: 15.76%;
+  	margin: 0 11% 0 0;
+}
+
+#page_title > p{
+	float: left;
+ 	font-size: 1.68vw;
+ 	font-family: Open Sans;
+ 	margin: 0
+}
+
+#block_title{
+	color: #a2a2a2;
+	font-family: Open Sans;
+	font-size: 1.18vw;
+  	margin: 2.52% 0 0 0;
+	font-weight: 400;
+}
+
+.title_under_btn{
+	margin: 5.04% 0 0 0 !important;
+}
+
+#socials{
+	width: 39.779%;
+  	height: 11.875%;
+  	padding: 0 0 15.335% 0;
+}
+
+#socials > div{
+	width: 48.88%;
+  	height: 35.1%;
+	border-radius: 0.6vw;
+	float: left;
+	margin: 3.3% 0 0 1.1%;
+}
+
+#socials > div > a{
+	color: #f1f1f1;
+	font-weight: 400;
+	font-family: Open Sans;
+	float: left;
+	text-align: center;
+	margin: 0;
+	font-size: 0.88vw;
+  	width: 58.339%;
+  	height: 100%;
+  	padding: 4.17%;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#socials > div > img{
+	margin: 5.839% 4.584% 0 0;
+  	cursor: pointer;
+  	width: 5%;
+}
+
+#social_icons{
+	width: 20.835%;
+  	height: 75%;
+  	margin: 2% 0;
+	float: left;
+	border-right: 0.1vw solid rgba(0, 0, 0, 0.18)
+}
+
+#social_icons > img{
+	cursor: pointer;
+}
+
+.vk{
+	background: #3b8cb1;
+}
+
+.vk > #social_icons > img{
+	width: 52%;
+  	height: 50%;
+  	margin: 14% 28%;
+}
+
+.fb{
+	background: #3b5998;
+}
+
+.fb > #social_icons > img{
+	width: 22%;
+  	height: 70%;
+  	margin: 6% 40%;
+}
+
+.twit{
+	background: #5ea9dd;
+}
+
+.twit > #social_icons > img{
+	width: 44%;
+  	height: 56.7%;
+  	margin: 14% 32%;
+}
+
+.inst{
+	background: #acacac;
+}
+
+.inst > #social_icons > img{
+	width: 42%;
+  	height: 70%;
+  	margin: 8% 34%;
+}
+
+.mail{
+	background: #168de2;
+}
+
+.mail > #social_icons > img{
+	width: 44%;
+    height: 56.7%;
+    margin: 14% 32%;
+}
+
+.ok{
+	background: #ffbe64;
+}
+
+.ok > #social_icons > img{
+	width: 44%;
+    height: 56.7%;
+    margin: 14% 32%;
+}
+
+#setting_inputs{
+	margin: 0 0.428%;
+  	width: 20.493%;
+}
+
+#setting_inputs > p{
+	font-family: Calibri;
+	font-weight: 700;
+	font-size: 1.17vw;
+}
+
+#setting_inputs > p > font{
+	font-weight: 400;
+}
+
+#setting_inputs > input{
+	width: 100%;
+  	height: 3.646%;
+  	padding: 2.92% 7.5%;
+  	margin: 2.5% 0;
+  	font-size: 1.12vw;
+	border: 0;
+	outline: none;
+	border-radius: 0.5vw;
+	font-family: Calibri;
+	color: #6c6c6c;
+	background: #e3e3e3;
+}
+
+#setting_inputs > input[type=button]{
+	background: #55a696;
+	color: #dae9e6;
+	font-family: Open Sans;
+	font-size: 1.04vw;
+	font-weight: 400;
+	cursor: pointer;
+	padding: 0;
+}
+
+.setting_error{
+	float: left;
+  	 width: 98.39%;
+  	height: 2.084%;
+  	font-size: 1vw;
+  	margin: -17.313% 0 0 109.79%;
+  	padding: 2.54% 5.07%;
+	border: 2px solid #f6e2e2;
+	color: #c4b8b8;
+	font-family: Open Sans;
+	font-weight: 600;
+	display: none;
+}
+
+.setting_error > img{
+	width: 2.15%;
+  	margin: 0 8.16% 0 -8.16%;
+}
+/*Новостная лента*/
+.wall{
+	background: #eaf4f2;
+	padding: 1px;
+	margin: 0 0 0 6.6%;
+	min-height: 100%;
+}
+
+.wall_post{
+	width: 95.934%;
+  	min-height: 15%;
+  	margin: 2.263% 1.509% 0 2.766%;
+	background: #fff;
+}
+
+#post_head{
+	height: 12.5%
+}
+
+#author_avatar{
+	width: 7.25%;
+  	height: 67.5%;
+  	margin: 1.747% 2.01% 0;
+	border-top: 0.2vw solid #e9f4f2;
+	float: left;
+}
+
+#post_head > p{
+	font-family: Calibri;
+	font-size: 1.57vw;
+  	margin: 3.058% 0 0 0;
+	font-weight: 600;
+	float: left;
+}
+
+#post_head > p > font{
+	font-weight: 200;
+	font-size: 1.4vw;
+
+}
+
+#post_head > a > img{
+	float: right;
+  	width: 2%;
+  	margin: 1.748% 2.271%;
+}
+
+#post_body{
+	font-size: 1.173vw;
+  	margin: 1.747% 1.223%;
+	font-family: Calibri;
+	min-height: 6.25%;
+}
+
+#post_body > span{
+	width: 1.816%;
+    height: 2.167%;
+}
+
+#post_body > a{
+	color: #b1c2cc;
+}
+
+#post_body > img{
+	width: 31.782%;
+  	margin: 2.06% 0.896%;
+  	cursor: pointer;
+}
+
+#post_footer{
+	height: 3.647%;
+}
+
+#post_footer > div{
+	margin: 0 0 1.398% 1.224%;
+	float: left;
+	font-size: 1.25vw;
+	font-family: Calibri;
+	font-weight: 600;
+	height: 54.3%;
+  	width: 2.534%;
+  	cursor: pointer;
+}
+
+#post_footer > div > img{
+	width: 53%;
+}
+
+#footer_reposts{
+	margin: 0 0 1.398% 3.984% !important;
+}
+
+.twit_repost{
+	margin: 1px 0 1.398% 3.984% !important;
+}
+
+#post_footer > div > p{
+	margin: -58.65% 0 0 69%;
+}
+	/*просмотр фотографии*/
+	#open_img{
+		width: 60%;
+		height: 60%;
+		margin: 4.014% 16.058%;
+	}
+
+	#open_img > img{
+		width: 100%;
+	}
+/*Комментарии*/
+.comment_box {
+	position: relative;
+	background: #f4f9f8;
+	border: 0.2vw solid #e9eeed;
+	width: 95.934%;
+	margin: -0.34% 1.509% 0 2.766%;
+	display: none;
+}
+
+.comment_box:after, .comment_box:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.comment_box:after {
+	border-bottom-color: #f4f9f8;
+	border-width: 0.4vw;
+	margin-left: -34.77%;
+}
+
+.comment_box:before {
+	border-bottom-color: #e9eeed;
+	border-width: 0.7vw;
+	margin-left: -35%;
+}
+
+.slide_c{
+	max-height: 48.76%;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.comment{
+	margin: 1.485% 2.062% 0 1.98%;
+	min-height: 11.865%;
+}
+
+.comment_author_avatar{
+	width: 4.626%;
+    height: 8.476%;
+	float: left;
+}
+
+.comment_author_avatar > a > img{
+	width: 100%;
+}
+
+.comment_author_name{
+	font-family: Calibri;
+	font-weight: 600;
+	margin: 0 0 0 0.93%;
+    line-height: 0.93vw;
+    font-size: 1.41vw;
+	text-decoration: none;
+	color: 454545;
+}
+
+.comment_time{
+	font-family: Calibri;
+	font-size: 1.37vw;
+	line-height: 0vw;
+	float: right;
+	color: #d0d2d2;
+	margin: 0;
+}
+
+.comment_text{
+	margin: 0.54% 0 0 5.55%;
+    font-size: 1.407vw;
+    width: 83.257%;
+	font-family: Calibri;
+}
+
+.comment_events{
+	height: 6.104%;
+    margin: 0.91% 0 0 5.55%;
+}
+
+.like_comment{
+	float: left;
+	height: 28.92%;
+}
+
+.like_comment > img{
+	float: left;
+	cursor: pointer;
+	height: 125%;
+}
+
+.count_like{
+	font-family: Open Sans;
+	font-weight: 500;
+	font-size: 1.03vw;
+    margin: 0 0 0 0.49vw;
+	float: left;
+	color: #bcc5c5;
+}
+
+#comment_layer{
+	margin: 0.46vw;
+    width: 0.455%;
+    height: 9.06%;
+    border-radius: 95%;
+    background: #dde1e0;
+    float: left;
+}
+
+.answer_comment{
+	font-family: Open Sans;
+	font-size: 1.02vw;
+	float: left;
+	color: #bcc5c5;
+	cursor: pointer;
+}
+
+.answer_box{
+	height: 14.333%;
+    margin: 1.417% 0 0 0;
+	background: #ebf3f1;
+}
+
+.answer_img{
+	margin: 1.4% 0 0 1.39%;
+	float: left;
+}
+
+.answer_img > img{
+	height: 47.7%;
+}
+
+.answer_area{
+	width: 91.416%;
+    font-size: 1.17vw;
+    padding: 1.07% 1%;
+    margin: 1.4% 0 0 0.709%;
+    border: 1px solid #dbe7e5;
+    background: #fafffe;
+    color: #cad5d3;
+    font-family: Calibri;
+    outline: none;
+    resize: none;
+}
+
+.answer_button{
+	margin: 0.8% 0 0 0.7%;
+    width: 10.722%;
+    height: 24.62%;
+    font-size: 1vw;
+	font-family: Open Sans;
+	background: #67bcbf;
+	color: #dcf0ef;
+	border: 0;
+	border-radius: 2px;
+	outline: none;
+	cursor: pointer;
+}
+/*Страница постов*/
+#post_page{
+	width: 93.437%;
+	height: 100%;
+	background: #eaf4f2;
+	margin: 0 0 0 6.6%;
+	padding: 1px;
+}
+
+#post_area{
+	width: 95.934%;
+	height: 14.885%;
+	border-bottom: 0.3vw solid #e2eeec;
+	background: #fff;
+	margin: 2.263% 1.509% 0 2.766%;
+}
+
+#post_text_area{
+	width: 97.3%;
+	outline: none;
+	resize: none;
+	margin: 1.074% 1.343%;
+	font-size: 1.1vw;
+	padding: 0.985%;
+	min-height: 48.9%;
+	border: 0.1vw solid #e1ebe9;
+	background: #f5faf9;
+	color: #7b7b7b;
+	font-family: Calibri;
+}
+
+#post_btn{
+	width: 9.215%;
+	height: 22.97%;
+	border-radius: 0.2vw;
+	margin: 0 1.342%;
+	font-size: 0.94vw;
+	background: #67bcbf;
+	color: #fff;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	float: left;
+	font-family: Open Sans;
+}
+
+#post_change{
+	float: right;
+}
+
+#post_change > font{
+	color: #cfdedb;
+	font-family: Calibri;
+	float: left;
+	font-size: 1vw;
+    margin: 2.867% 2.867% 2.867% -25.867%;
+}
+
+#change_post{
+	font-family: Calibri;
+	float: left;
+    width: 60.008%;
+	border: 0.1vw solid #e6edec;
+	border-radius: 0.2vw;
+	background: #fafffe;
+	color: #95b9ba;
+	padding: 4%;
+	margin: -15.522% -8.243% 0 22.5%;
+}
+
+#change_post > img{
+	float: right;
+	margin: 7.28% 0 0 7.59%;
+    width: 10.84%;
+	cursor: pointer;
+}
+
+#change_post > font{
+	cursor: pointer;
+	float: left;
+	font-size: 1.0vw;
+}
+
+#post_menu, #post_inputs{
+	display: none;
+}
+
+.change_btn{
+	width: 11.44%;
+    height: 8.15%;
+    margin: 9.36% 9.36% 0 2.08%;
+	border: 0.1vw solid #cbdbd8;
+	border-radius: 0.1vw;
+}
+
+.change_btn_active{
+	background: #67bcbf;
+	border: 0.1vw solid #67bcbf;
+}
+
+.change_btn_decided{
+	background: #d9d9d9;
+	border: 0.1vw solid #d9d9d9;
+	cursor: default;
+}
+
+#post_menu > div{
+	margin: 21.45% 0 -21.45% 0;
+	width: 100%;
+	cursor: pointer;
+}
+
+#post_menu > div > font{
+	float: left;
+	margin: -17.28% 0 0 22%;
+	font-size: 1.25vw;
+}
