@@ -1,0 +1,13 @@
+RewriteEngine On
+
+php_flag allow_url_fopen 1
+php_value error_reporting 1
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^aa$ modules/register/reg_add_account.php [L]
+RewriteRule ^feed$ modules/feeds/feed.php [L]
+RewriteRule ^posts$ modules/posts/post.php [L]
+RewriteRule ^f$ modules/feeds/feed.php [L]
+RewriteRule ^setting$ modules/settings/setting.php [L]
+RewriteRule ^exit$ modules/auth/exit.php [L]
