@@ -1,0 +1,45 @@
+<html>
+<head>
+	<meta charset='utf-8'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://hipis.ru/css/page.css">
+	<script type="text/javascript">
+	function feed() {
+		var token = "538c085381fa5e4170c0433ac6c7a767fdf9ab051a43ef7d7f7d5239b56329a8872c9e43346a940b62e61f777636e";
+		$.ajax({
+		    type: "POST",
+		    url:'http://hipis.ru/off/feed.php',
+		    data:{token:token},
+		    success:function(data){
+		        var answer = jQuery.parseJSON(data);
+		        var count_news = 1;
+		        while (count_news < 20) {
+		        	var vk_name = answer[count_news].name;
+		        	var vk_text = answer[count_news].post_text;
+		        	var vk_img = answer[count_news].post_text;
+		        	localStorage.setItem("vk_text"+count_news, vk_text);
+		        	localStorage.setItem("vk_img"+count_news, vk_img);
+		        	localStorage.setItem("vk_name"+count_news, vk_name);
+		        	count_news++;
+		        }
+		        //alert(vk_answer[0].code);
+		        $("body").html(answer[3].post_text);
+		    }
+		});
+	}
+	function echo() {
+		var count_news = 1;
+		while (count_news < 50) {
+			var post = "<div class='wall_post'><div id='post_head'><img id='author_avatar' src='http://hipis.ru/256.png'><p>Новости Hipis.ru<br><font>3 мин. назад</font></p><a href='http://hipis.ru'><img src='img/post_icons/vk.png'></a></div><div id='post_body'>"+localStorage.getItem("lastname"+count_news)+"</div><div id='post_footer'><div><img src='img/post_icons/like.png'><p>2</p></div><div id='footer_reposts'><img src='img/post_icons/repost.png'><p>0</p></div></div></div>";
+			$(".wall").append(post);
+			count_news++;
+		}
+	}
+	</script>
+</head>
+<body onload='echo();'>
+	<div class='wall'>
+
+	</div>
+</body>
+</html>
